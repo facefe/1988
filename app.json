@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/font/font",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/user"
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,5 +11,21 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/font/font",
+        "iconPath": "imgicon/font_2.png",
+        "selectedIconPath": "imgicon/font_1.png",
+        "text": "font"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "imgicon/user_2.png",
+        "selectedIconPath": "imgicon/user_1.png",
+        "text": "user"
+      }
+    ]
+  }
 }

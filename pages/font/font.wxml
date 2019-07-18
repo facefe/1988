@@ -1,0 +1,23 @@
+<!-- pages/font/font.wxml -->
+<view class="wrapper-box">
+  <view class="banner-wrapper">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="#ffffff" easing-function="linear" circular="true">
+      <block wx:for="{{imgUrls}}" wx:key="imgUrls.index">
+        <swiper-item>
+          <image class="banner-img" src="{{item}}" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <text class="banner-mes">
+    {{ movieName }}
+    </text>
+  </view>
+  <view class="content-middle">
+    <view class="movie-introduce">
+      <image class="movie-introduce-img" src="{{ moviePrimyImg }}" />
+      <view class="movie-introduce-mes">{{ moviePrimyMesT }} 
+      <text bindtap="showMovieMesAll" class="movie-introduce-more">{{ mesShow }}</text>
+      </view>
+    </view>
+  </view>
+</view>

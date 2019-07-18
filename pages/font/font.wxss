@@ -1,0 +1,52 @@
+.wrapper-box {
+  height: 100%;
+  background-color: rgb(253, 249, 249);
+}
+
+.banner-img {
+  width: 750rpx;
+}
+
+.banner-mes {
+  display: inline-block;
+  height: 10rpx;
+  line-height: 10rpx;
+  font-size: 16px;
+  padding-left: 20px;
+  color: rgb(241, 207, 207);
+}
+
+.content-middle {
+  background-color: rgb(253, 249, 249);
+}
+
+.content-middle  .movie-introduce {
+  width: 730rpx;
+  /* height: 320rpx; *//* overflow: hidden; */
+  margin: 0 auto;
+  padding-bottom: 5rpx;
+}
+
+.movie-introduce .movie-introduce-img {
+  width: 300rpx;
+  height: 300rpx;
+  float: left;
+}
+
+.movie-introduce .movie-introduce-mes {
+  font-size: 16px;
+  height: 305rpx;
+  background-color: rgb(253, 249, 249);
+}
+
+.movie-introduce .movie-introduce-more {
+  display: inline-block;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-left: 4rpx;
+  font-size: 14px;
+  color: white;
+  background: rgb(132, 114, 165);
+  border: 1px solid rgb(132, 114, 165);
+  border-radius: 10rpx;
+}
