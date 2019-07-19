@@ -1,4 +1,6 @@
 <!-- pages/font/font.wxml -->
+<!--https://www.jianshu.com/p/225e7c858027-->
+<!--一个mysql安装教程-->
 <view class="wrapper-box">
   <view class="banner-wrapper">
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="#ffffff" easing-function="linear" circular="true">
@@ -19,5 +21,11 @@
       <text bindtap="showMovieMesAll" class="movie-introduce-more">{{ mesShow }}</text>
       </view>
     </view>
+  </view>
+  <view class="movieactor-list">演职员表</view>
+  <view class="content-performerlist">
+    <image class="content-performerlist-img" src="{{ moviePrimyImg }}" />
+    <view class="content-performerlist-mes1"><text>李易峰</text> 饰 <text>张三三</text></view>
+    <view class="content-performerlist-mes2">简介: <text>双门高中2年级</text></view>
   </view>
 </view>

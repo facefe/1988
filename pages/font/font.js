@@ -22,7 +22,7 @@ Page({
 
   },
   showMovieMes: function() {
-    let movieMes = this.data.moviePrimyMes.slice(0, 85);
+    let movieMes = this.data.moviePrimyMes.slice(0, 105);
     this.setData({
       moviePrimyMesT: movieMes,
       mesShow: '更多'
@@ -30,7 +30,7 @@ Page({
   },
 
   showMovieMesAll: function() {
-    if (this.data.moviePrimyMesT.length !== 85) {
+    if (this.data.moviePrimyMesT.length !== 105) {
       this.showMovieMes()
     } else {
       this.setData({
